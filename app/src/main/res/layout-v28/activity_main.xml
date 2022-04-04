@@ -5,20 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:outlineAmbientShadowColor="@color/colorPrimaryDark">
+    
 
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="147dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="150dp"
-        android:text="@string/choisissez_votre_style"
-        android:textStyle="bold"
-        />
+        android:text="TextView" />
 
     <ImageButton
-
         android:id="@+id/img1"
         android:layout_width="70dp"
         android:layout_height="71dp"
@@ -49,12 +47,12 @@
         android:layout_height="71dp"
         android:layout_gravity="center"
         android:layout_marginStart="100dp"
-        android:layout_marginTop="40dp"
         android:layout_marginEnd="90dp"
         android:scaleType="centerInside"
+        android:layout_marginTop="40dp"
 
 
-        app:srcCompat="@mipmap/ic_casquette" />
+        app:srcCompat="@mipmap/ic_casquette"/>
 
 
 </LinearLayout>

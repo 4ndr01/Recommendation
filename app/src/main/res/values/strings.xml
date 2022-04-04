@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Recommendation</string>
+    <string name="test">Test</string>
+    <string name="choisissez_votre_style">Choisissez votre style</string>
 </resources>
