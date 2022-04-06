@@ -7,24 +7,24 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import fr.dc.bdw1.recommendation.databinding.ActivityTshirtBinding;
+import fr.dc.bdw1.recommendation.databinding.ActivityManteauBinding;
 
-public class TshirtActivity extends AppCompatActivity {
-    public static final String CURRENT_URL = "Current_URL";
+
+public class ManteauActivity extends AppCompatActivity {
+    private ActivityManteauBinding ui;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_manteau);
 
-        setContentView(R.layout.activity_tshirt);
-        ActivityTshirtBinding ui = ActivityTshirtBinding.inflate(getLayoutInflater());
+        ActivityManteauBinding ui = ActivityManteauBinding.inflate(getLayoutInflater());
         setContentView(ui.getRoot());
 
-
-        ui.thommy.setOnClickListener(new View.OnClickListener() {
+        ui.imageManteau.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String url = "https://www.zalando.fr/tommy-jeans-original-tee-regular-fit-t-shirt-basique-black-iris-tob22o018-k11.html";
+                String url = "https://www.zalando.fr/boss-hyde-standup-manteau-classique-dark-blue-bb122t0jp-k11.html";
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                 startActivity(intent);
             }
