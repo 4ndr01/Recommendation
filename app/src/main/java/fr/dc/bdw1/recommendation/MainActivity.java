@@ -4,18 +4,28 @@ import androidx.activity.result.ActivityResult;
 import androidx.activity.result.ActivityResultCallback;
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.SearchManager;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.PersistableBundle;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
+import android.widget.SearchView;
+import android.widget.SimpleCursorAdapter;
 
 import fr.dc.bdw1.recommendation.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
     public static final String url = "URL";
     private ActivityMainBinding ui;
+
+    private static final String[] SUGGESTION = {"tshirt", "manteau", "casquette"};
 
 
     @Override
@@ -24,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         ui = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(ui.getRoot());
+
 
         ActivityResultLauncher<Intent> accessoireActivityResultLauncher = this.registerForActivityResult(
                 new ActivityResultContracts.StartActivityForResult(),
@@ -86,6 +97,7 @@ public class MainActivity extends AppCompatActivity {
                 }
 
         );
+
 
 
         ui.img1.setOnClickListener(new View.OnClickListener() {

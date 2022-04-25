@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Recommendation">
         <activity
+            android:name=".AccessoireActivity"
+            android:exported="true" />
+
+        <activity
             android:name=".TshirtActivity"
             android:exported="true" />
         <activity

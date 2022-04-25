@@ -3,17 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/marvl/AndroidStudioProjects/Recommendation/app/src/main/res/drawable/ic_accessoire.xml" value="0.121" />
         <entry key="..\:/Users/marvl/AndroidStudioProjects/Recommendation/app/src/main/res/drawable/ic_azure_t_shirt.xml" value="0.121" />
         <entry key="..\:/Users/marvl/AndroidStudioProjects/Recommendation/app/src/main/res/drawable/ic_johnny_automatic_jacket.xml" value="0.121" />
         <entry key="..\:/Users/marvl/AndroidStudioProjects/Recommendation/app/src/main/res/drawable/ic_launcher_background.xml" value="0.121" />
         <entry key="..\:/Users/marvl/AndroidStudioProjects/Recommendation/app/src/main/res/layout-v28/activity_main.xml" value="0.2" />
-        <entry key="..\:/Users/marvl/AndroidStudioProjects/Recommendation/app/src/main/res/layout/activity_accessoire.xml" value="0.10989583333333333" />
-        <entry key="..\:/Users/marvl/AndroidStudioProjects/Recommendation/app/src/main/res/layout/activity_main.xml" value="0.4" />
-        <entry key="..\:/Users/marvl/AndroidStudioProjects/Recommendation/app/src/main/res/layout/activity_manteau.xml" value="0.176" />
+        <entry key="..\:/Users/marvl/AndroidStudioProjects/Recommendation/app/src/main/res/layout/activity_accessoire.xml" value="0.136" />
+        <entry key="..\:/Users/marvl/AndroidStudioProjects/Recommendation/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/marvl/AndroidStudioProjects/Recommendation/app/src/main/res/layout/activity_manteau.xml" value="0.264" />
         <entry key="..\:/Users/marvl/AndroidStudioProjects/Recommendation/app/src/main/res/layout/activity_result1.xml" value="0.24635416666666668" />
-        <entry key="..\:/Users/marvl/AndroidStudioProjects/Recommendation/app/src/main/res/layout/activity_tshirt.xml" value="0.264" />
+        <entry key="..\:/Users/marvl/AndroidStudioProjects/Recommendation/app/src/main/res/layout/activity_tshirt.xml" value="0.2" />
+        <entry key="..\:/Users/marvl/AndroidStudioProjects/Recommendation/app/src/main/res/menu/menu.xml" value="0.136" />
         <entry key="..\:/Users/marvl/AndroidStudioProjects/Recommendation/app/src/main/res/mipmap-anydpi-v26/ic_casquette.xml" value="0.121" />
         <entry key="..\:/Users/marvl/AndroidStudioProjects/Recommendation/app/src/main/res/mipmap-anydpi-v26/ic_casquette_round.xml" value="0.121" />
+        <entry key="..\:/Users/marvl/AndroidStudioProjects/Recommendation/app/src/main/res/mipmap-anydpi-v26/ic_manteau.xml" value="0.1" />
         <entry key="..\:/Users/marvl/AndroidStudioProjects/Recommendation/app/src/main/res/mipmap-anydpi-v26/ic_tshirt_round.xml" value="0.121" />
       </map>
     </option>

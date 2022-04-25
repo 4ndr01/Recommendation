@@ -15,8 +15,8 @@ public class TshirtActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_tshirt);
+
         ActivityTshirtBinding ui = ActivityTshirtBinding.inflate(getLayoutInflater());
         setContentView(ui.getRoot());
 
@@ -24,7 +24,7 @@ public class TshirtActivity extends AppCompatActivity {
         ui.thommy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String url = "https://www.zalando.fr/tommy-jeans-original-tee-regular-fit-t-shirt-basique-black-iris-tob22o018-k11.html";
+                String url = "https://www.zalando.fr/tommy-jeans-classic-c-neck-t-shirt-basique-twilight-navy-tob22o09i-k11.html";
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                 startActivity(intent);
             }
